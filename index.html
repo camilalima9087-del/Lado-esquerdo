@@ -5,34 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Estudos</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f3f5fb;
-            color: #25304a;
-            padding: 24px;
-        }
-        h1 {
-            text-align: center;
-            color: #334b85;
-        }
-        p {
-            text-align: center;
-            font-size: 18px;
-        }
-        button {
-            display: block;
-            width: 100%;
-            max-width: 600px;
-            margin: 14px auto;
-            padding: 18px;
-            border: none;
-            border-radius: 12px;
-            background: white;
-            color: #25304a;
-            font-size: 17px;
-            text-align: left;
-        }
-    </style>
+            * {
+                    box-sizing: border-box;
+                        }
+
+                            body {
+                                    font-family: Arial, sans-serif;
+                                            background: #f5f6f1;
+                                                    color: #30382d;
+                                                            margin: 0;
+                                                                    padding: 30px 20px;
+                                                                        }
+
+                                                                            h1 {
+                                                                                    color: #40533a;
+                                                                                            text-align: center;
+                                                                                                    font-size: 30px;
+                                                                                                            margin-bottom: 10px;
+                                                                                                                }
+
+                                                                                                                    p {
+                                                                                                                            text-align: center;
+                                                                                                                                    color: #687064;
+                                                                                                                                            line-height: 1.6;
+                                                                                                                                                }
+
+                                                                                                                                                    a {
+                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                }
+
+                                                                                                                                                                    a:has(button) {
+                                                                                                                                                                            display: block;
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                        }
+
+                                                                                                                                                                                            button {
+                                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                                            min-height: 100px;
+                                                                                                                                                                                                                    padding: 22px 16px;
+                                                                                                                                                                                                                            background: #ffffff;
+                                                                                                                                                                                                                                    color: #40533a;
+                                                                                                                                                                                                                                            border: 1px solid #e0e5d9;
+                                                                                                                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                                                                                                                            font-size: 17px;
+                                                                                                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                                                                                                            text-align: center;
+                                                                                                                                                                                                                                                                                    cursor: pointer;
+                                                                                                                                                                                                                                                                                            box-shadow: 0 3px 10px #26351a0d;
+                                                                                                                                                                                                                                                                                                    transition: 0.2s;
+                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                            button:hover {
+                                                                                                                                                                                                                                                                                                                    background: #e9eee3;
+                                                                                                                                                                                                                                                                                                                            border-color: #718365;
+                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                    a:has(button) {
+                                                                                                                                                                                                                                                                                                                                            margin-bottom: 14px;
+                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                    body > a:last-of-type {
+                                                                                                                                                                                                                                                                                                                                                            color: #40533a;
+                                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                                    @media (min-width: 600px) {
+                                                                                                                                                                                                                                                                                                                                                                            body {
+                                                                                                                                                                                                                                                                                                                                                                                        max-width: 900px;
+                                                                                                                                                                                                                                                                                                                                                                                                    margin: 0 auto;
+                                                                                                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                    body {
+                                                                                                                                                                                                                                                                                                                                                                                                                                display: grid;
+                                                                                                                                                                                                                                                                                                                                                                                                                                            grid-template-columns: repeat(2, minmax(0, 1fr));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        gap: 16px;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        h1, p {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    grid-column: 1 / -1;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </style>
 </head>
 <body>
     <h1>📚 Portal de Estudos</h1>
