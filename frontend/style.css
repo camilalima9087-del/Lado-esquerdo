@@ -1,0 +1,49 @@
+* {
+        box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+                padding: 24px;
+                    font-family: Arial, sans-serif;
+                        background: #f3f5fb;
+                            color: #25304a;
+                            }
+
+                            h1 {
+                                text-align: center;
+                                    color: #334b85;
+                                        font-size: 32px;
+                                        }
+
+                                        p {
+                                            text-align: center;
+                                                font-size: 18px;
+                                                    line-height: 1.5;
+                                                    }
+
+                                                    h2 {
+                                                        margin-top: 35px;
+                                                            color: #334b85;
+                                                            }
+
+                                                            button {
+                                                                display: block;
+                                                                    width: 100%;
+                                                                        max-width: 600px;
+                                                                            margin: 14px auto;
+                                                                                padding: 18px;
+                                                                                    border: none;
+                                                                                        border-radius: 12px;
+                                                                                            background: white;
+                                                                                                color: #25304a;
+                                                                                                    font-size: 17px;
+                                                                                                        text-align: left;
+                                                                                                            box-shadow: 0 3px 10px #00000010;
+                                                                                                                cursor: pointer;
+                                                                                                                }
+
+                                                                                                                button:hover {
+                                                                                                                    background: #e5ebff;
+                                                                                                                    }
+}
